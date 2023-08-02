@@ -16,7 +16,7 @@ const Bgcolor = () => {
     return (
 
         <div style={{ backgroundColor: isRed ? "red" : "blue" , height:"100vh"}}  >
-            <button onClick={abc} style={{ bgColorButton: isRed ? "white" : "yellow"}}>Hi there!</button>
+            <button onClick={abc} style={{ background: isRed ? "green" : "yellow"}}>Hi there!</button>
       </div>
 
 );  
